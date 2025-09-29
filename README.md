@@ -41,15 +41,14 @@ sleep-analysis-garmin/
 
 ---
 
-## Dashboard
+## Tableau Dashboard
 
-[View Tableau Dashboard](PASTE-YOUR-TABLEAU-LINK-HERE)
+👉 [View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/porter.mclaws/viz/Book1_17591722694650/Dashboard1?publish=yes)
 
-Contains:
-
-* Sleep Duration Trend (Garmin vs. Bedtime–Wake)
-* Sleep Efficiency Over Time
-* Sleep Debt vs. 8-Hour Target
+This dashboard includes:
+- Sleep Duration Trend (Garmin vs. Bedtime–Wake)
+- Sleep Efficiency Over Time
+- Sleep Debt vs. 8-Hour Goal
 
 ---
 
