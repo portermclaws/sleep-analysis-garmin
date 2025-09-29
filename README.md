@@ -1,30 +1,27 @@
-# sleep-analysis-garmin
-Analyzing 4 weeks of Garmin sleep data using Python (pandas) and Tableau.
-
 # Sleep Analysis with Garmin Data
 
-## Overview
+## Project Overview
 
-Analyzed 4 weeks of Garmin sleep data. Raw CSV was cleaned with **Python (pandas)** and visualized with **Tableau Public**.
+This project analyzes 4 weeks of Garmin sleep data. The raw CSV export was cleaned and transformed using Python (pandas), then visualized in Tableau Public.
 
-Key questions:
+The analysis explores three core questions:
 
-* How long did I sleep (Garmin vs. Bedtime–Wake calculation)?
-* How efficiently did I sleep (% of time in bed actually asleep)?
-* Am I meeting the 8-hour goal (sleep debt)?
-
----
-
-## Tools
-
-* Python (pandas, matplotlib, seaborn)
-* Jupyter Notebook
-* Tableau Public
-* GitHub for versioning + documentation
+1. How long did I sleep each night (Garmin vs. bedtime–wake calculation)?
+2. How efficiently did I sleep (% of time in bed actually asleep)?
+3. Am I meeting the 8-hour goal (sleep debt)?
 
 ---
 
-## Files
+## Tools and Methods
+
+* Python (pandas, matplotlib, seaborn) for data cleaning and analysis
+* Jupyter Notebook for workflow and documentation
+* Tableau Public for interactive dashboard visualization
+* GitHub for version control and project sharing
+
+---
+
+## Project Structure
 
 ```
 sleep-analysis-garmin/
@@ -43,19 +40,18 @@ sleep-analysis-garmin/
 
 ## Tableau Dashboard
 
-👉 [View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/porter.mclaws/viz/Book1_17591722694650/Dashboard1?publish=yes)
+[View the live dashboard on Tableau Public](https://public.tableau.com/app/profile/porter.mclaws/viz/Book1_17591722694650/Dashboard1?publish=yes)
 
 This dashboard includes:
-- Sleep Duration Trend (Garmin vs. Bedtime–Wake)
-- Sleep Efficiency Over Time
-- Sleep Debt vs. 8-Hour Goal
+
+* Sleep Duration Trend (Garmin vs. Bedtime–Wake calculation)
+* Sleep Efficiency Over Time
+* Sleep Debt compared to an 8-hour target
 
 ---
 
-## Insights
+## Key Insights
 
-* Garmin undercounts sleep by ~0.5–1.5 hrs vs. raw bed-to-wake.
-* Avg sleep efficiency ≈ 85%.
-* Sleep debt builds on weekdays, weekends show catch-up.
-
----
+* Garmin undercounts sleep by approximately 0.5–1.5 hours compared to raw bedtime–wake calculations.
+* Average sleep efficiency is about 85%, meaning 15% of time in bed was spent awake.
+* Sleep debt tends to build during weekdays, with recovery often occurring on weekends.
